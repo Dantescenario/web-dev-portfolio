@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Mail, ExternalLink, Send, CheckCircle2, AlertTriangle } from 'lucide-react';
 import Github from './icons/Github';
+import Fiverr from './icons/Fiverr';
+import Contra from './icons/Contra';
 import useInView from '../hooks/useInView';
 
 const Contact = () => {
@@ -99,29 +101,25 @@ const Contact = () => {
                 </div>
               </a>
 
-              <div className="contact-channel-card" style={{ opacity: 0.7 }}>
+              <a href="https://contra.com/rishabh_bhardwaj_e39po54u?referralExperimentNid=DEFAULT_REFERRAL_PROGRAM&referrerUsername=rishabh_bhardwaj_e39po54u" target="_blank" rel="noopener noreferrer" className="contact-channel-card">
                 <div className="contact-channel-icon">
-                  <ExternalLink size={20} />
+                  <Contra size={20} />
                 </div>
                 <div className="contact-channel-details">
                   <span className="contact-channel-label">Contra</span>
-                  <span className="contact-channel-value" style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
-                    [Contra Link - Add URL Later]
-                  </span>
+                  <span className="contact-channel-value">contra.com/rishabh_bhardwaj</span>
                 </div>
-              </div>
+              </a>
 
-              <div className="contact-channel-card" style={{ opacity: 0.7 }}>
+              <a href="https://www.fiverr.com/s/Q2YWGLP" target="_blank" rel="noopener noreferrer" className="contact-channel-card">
                 <div className="contact-channel-icon">
-                  <ExternalLink size={20} />
+                  <Fiverr size={20} />
                 </div>
                 <div className="contact-channel-details">
                   <span className="contact-channel-label">Fiverr</span>
-                  <span className="contact-channel-value" style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
-                    [Fiverr Link - Add URL Later]
-                  </span>
+                  <span className="contact-channel-value">fiverr.com/s/Q2YWGLP</span>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
 
