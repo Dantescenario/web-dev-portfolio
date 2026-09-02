@@ -79,13 +79,13 @@ const Contact = () => {
             </div>
 
             <div className="contact-channels">
-              <a href="mailto:rishabhbhardwaj.dev@gmail.com" className="contact-channel-card">
+              <a href="mailto:risabh112000@gmail.com" className="contact-channel-card">
                 <div className="contact-channel-icon">
                   <Mail size={20} />
                 </div>
                 <div className="contact-channel-details">
                   <span className="contact-channel-label">Email</span>
-                  <span className="contact-channel-value">rishabhbhardwaj.dev@gmail.com</span>
+                  <span className="contact-channel-value">risabh112000@gmail.com</span>
                 </div>
               </a>
 

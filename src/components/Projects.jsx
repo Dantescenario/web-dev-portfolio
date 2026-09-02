@@ -25,7 +25,7 @@ const Projects = () => {
       description: 'An interactive web application for creating professional resumes, allowing real-time edits, templating, and instant PDF download.',
       image: '/images/resume_builder.jpg',
       tech: ['React', 'JavaScript', 'HTML5', 'CSS3', 'PDF Generation', 'State Management'],
-      liveUrl: 'https://github.com/Dantescenario',
+      liveUrl: 'https://resume-builder-black-eight.vercel.app/',
       isCaseStudyAvailable: false,
       isPlaceholder: false
     },
